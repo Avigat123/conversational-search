@@ -1,0 +1,10 @@
+openai>=1.40          # client for any OpenAI-compatible API (Groq, Gemini, OpenRouter, Ollama)
+ddgs>=9.0            # free DuckDuckGo search, no API key
+numpy>=1.26
+scikit-learn>=1.4
+fastapi>=0.110        # optional HTTP API
+uvicorn>=0.29         # optional HTTP API
+pydantic>=2.6
+pytest>=8.0
+# Optional, for semantic embeddings (CONSEARCH_EMBEDDER=sentence-transformers):
+# sentence-transformers>=2.7
